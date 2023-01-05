@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/cssfamily=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    background-color: azure;
+    color: #222;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: #fafafa;
+}
+
+.container.show-nav {
+    transform: rotate(-20deg);
+}
